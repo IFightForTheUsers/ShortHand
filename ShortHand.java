@@ -10,7 +10,7 @@ public class ShortHand {
 
         String orig = input.nextLine();
 
-        System.out.println("Short-Handed:");
+        System.out.print("Short-Handed: -> ");
 
         if (orig.contains(" ")) {
             String[] strArray = orig.split(" ");
@@ -34,10 +34,10 @@ public class ShortHand {
 
             int lettersInBetween = origLength - 2;
 
-            System.out.print(firstLetter.toString() + lettersInBetween + lastLetter.toString() + " ");
+            System.out.println(firstLetter.toString() + lettersInBetween + lastLetter.toString() + " ");
         }
         else {
-            System.out.print(orig + " ");
+            System.out.println(orig + " ");
         }
         
     }
